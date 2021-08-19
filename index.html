@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets\css\style.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap" rel="stylesheet">
+
+
+
+    <title>portfolio</title>
+  </head>
+  <body>
+    <!--NAVBAR -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #3089C6">
+      <div class="container-fluid">
+        <a class="navbar-brand font-weight-bold text-white" href="#">Sadiah Shaikh</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <li class="navbar-toggler-icon"></li>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link text-white" aria-current="page" href="#"><i class="fas fa-home"></i> Home</a>
+            <a class="nav-link text-white" href="#projects"><i class="fas fa-book-open"></i> Projects</a>
+            <a class="nav-link text-white" href="#skills"><i class="fas fa-briefcase"></i> Skills</a>
+            <a class="nav-link text-white" href="#contact"><i class="fas fa-phone-alt"></i> Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+    
+    <!-- INTRODUCTION PORTION -->
+    <div class="container" id="home">
+      <div class="row d-flex justify-content-center">
+        <img src="assets\images\myprofile.jpg" alt="profile pic" class="rounded-circle mt-4 mb-3 p-2 profile" style="width: 55%;">
+        <br>
+        <div class="desc text-center">
+          <h5  style="font-weight: bold;">Hi, This is Sadiah Shaikh!</h5>
+          <p>I am a IT student, Python and Machine learning enthusiast!<br>Here is my <a href="#" class="acss">resume</a></p>
+          <p class="font-weight-bold">Follow me at:</p>
+          <ul class="d-flex justify-content-center px-0" style="list-style: none;">
+            <a href="https://github.com/sadiah7" class="acss"><li class="mx-3"><i class="fab fa-github fa-2x text-dark"></i></li></a>
+            <a href="" class="acss"><li class="mx-3"><i class="fab fa-linkedin fa-2x text-dark"></i></li></a>
+            <a href="" class="acss"><li class="mx-3"><i class="fab fa-twitter fa-2x text-dark"></i></li></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- END OF INTRODUCTION -->
+
+
+    <!-- PROJECTS PORTION -->
+    <div class="container" id="projects">
+      <h3 class="text-lg-center mt-3"><i class="fas fa-book-open fa-lg"></i> Projects</h3>
+      <div class="row d-inline-flex">  <!-- START OF ROW 1 -->
+        <!-- TWO PROJECTS PER ROW -->
+        <!-- PROJECT 1 -->
+        <div class="card mt-5 ms-auto me-auto border border-info bg-light text-dark">
+          <div class="card-body">
+            <img class="card-img-top img-thumbnail mb-3 mx-auto d-block" src="assets\images\flaskblog.png" alt="Card image cap">
+            <h5 class="card-title" style="font-weight: bold;">Blog It</h5>
+            <p class="card-text">A Blogging website made using HTML, CSS and Bootstrap for frontend and 
+              Flask for Backend. It supports functionalities such as update post, 
+              delete post,create a new post, change profile picture etc. </p>
+            <a href="#" class="btn btn-outline-dark vsource">View Source <i class="fab fa-github fa-lg"></i></a>
+          </div>
+        </div>
+      
+        <!-- PROJECT 2 -->
+        <div class="card mt-5 border border-info bg-light text-dark">
+          <div class="card-body">
+            <img class="card-img-top img-thumbnail mb-3 mx-auto d-block" src="assets\images\acg.png" alt="Card image cap">
+            <h5 class="card-title" style="font-weight: bold;">Acronym Generator</h5>
+            <p class="card-text">A web application which generates acronym for 
+              the word entered by the user and also return few links related to that word. It features a 
+              classy UI made in HTML and CSS contributed by
+               <a href="#" class="acss">Kriyanshi Shah</a> and the backend is made in Flask.</p>
+            <a href="https://github.com/sadiah7/AcronymGenerator" class="btn btn-outline-dark vsource">View Source <i class="fab fa-github fa-lg"></i></a>
+          </div>
+        </div>
+
+
+      </div>  <!-- END OF ROW 1 --> 
+
+
+      <div class="row ">  <!-- START OF ROW 2 -->
+        <!-- TWO PROJECTS PER ROW -->
+        <!-- PROJECT 3 -->
+        <div class="card mt-5 border border-info bg-light text-dark">
+          <div class="card-body">
+            <img class="card-img-top img-thumbnail mb-3 mx-auto d-block" src="assets\images\tribute.png" alt="Card image cap">
+            <h5 class="card-title" style="font-weight: bold;">Tribute Page</h5>
+            <p class="card-text">A tribute page which sings the praises of Dr. Nourman Bourlog. It showcases the simple yet effective use of HTML and CSS.   </p>
+            <a href="https://github.com/sadiah7/tribute-page" class="btn btn-outline-dark vsource">View Source <i class="fab fa-github fa-lg"></i></a>
+          </div>
+        </div>
+      
+        <!-- PROJECT 4 -->
+        <div class="card mt-5 border border-info bg-light text-dark">
+          <div class="card-body">
+            <img class="card-img-top img-thumbnail mb-3 mx-auto d-block" src="assets\images\surveyform.png" alt="Card image cap">
+            <h5 class="card-title" style="font-weight: bold;">Survey Form</h5>
+            <p class="card-text">A survey form which is made in HTML and CSS.</p>
+            <a href="#" class="btn btn-outline-dark vsource">View Source <i class="fab fa-github fa-lg"></i></a>
+          </div>
+        </div>
+
+      </div>  <!-- END OF ROW 2 --> 
+    </div> <!-- END OF CONTAINER -->
+    <!-- END OF PROJECTS -->
+
+    <br>
+   
+    <!-- SKILLS -->
+    <div class="container" id="skills">
+      <h3 class="text-lg-center mb-3"><i class="fas fa-briefcase fa-lg"></i> Skills</h3>
+      <div class="row">
+        <ul class="list-design text-lg-center">
+          <li class="list-design-item text-lg-center"><img src="assets\images\pythonlogo.png" alt="pythonlogo" class="logo-size"></li>
+          <li class="list-design-item text-lg-center"><img src="assets\images\html5logo.png" alt="html5logo" class="logo-size"></li>
+          <li class="list-design-item text-lg-center"><img src="assets\images\css3logo.png" alt="css3logo" class="logo-size"></li>
+          <li class="list-design-item text-lg-center"><img src="assets\images\javalogo.png" alt="javalogo" class="logo-size"></li>        
+          <li class="list-design-item text-lg-center"><img src="assets\images\Bootstrap_logo.svg.png" alt="javalogo" class="logo-size"></li>        
+          <li class="list-design-item text-lg-center"><img src="assets\images\flasklogo2.svg" alt="pythonlogo" class="logo-size"></li>
+          <li class="list-design-item text-lg-center"><i class="fab fa-github fa-2x"></i></li>
+          <li class="list-design-item text-lg-center"><img src="assets\images\js_logo2.png" alt="pythonlogo" class="logo-size"></li>
+        </ul>
+      </div>
+    </div>
+    <!-- END OF SKILLS -->
+
+    <br>
+
+    <!-- CONTACT ME -->
+    <div class="container">
+      <h3 class="text-lg-center"><i class="fas fa-phone-alt fa-lg"></i> Contact Me</h3>
+      <div class="mb-3" id="contact">
+        <label for="exampleFormControlInput1" class="form-label" style="font-weight: bold;">Please Enter your Email address:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your Email Address">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label" style="font-weight: bold;">Please enter your comments:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your Comments"></textarea>
+        <button type="button" class="mt-3 btn btn-outline-dark vsource">Submit</button>
+        <!-- END OF CONTACT ME -->
+ 
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!-- todo list:
+1. Icon colors
+2. project details
+3. coloring website
+4. adding animation
+5. change font
+
+<i class="fab fa-html5"></i>
+<i class="fab fa-css3"></i>
+<i class="fab fa-java"></i>
