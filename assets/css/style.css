@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #B5EAEA;;
+}
+
+.logo-size{
+    width: 2.6rem;
+}
+
+.list-design{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+}
+
+.list-design-item{
+    margin-right: 1em;
+}
+
+.vsource:hover{
+    background-color: #001E6C;
+    color: white;
+    transition: all ease;
+}
+
+.vsource{
+    font-family: 'Inconsolata', monospace;
+}
+
+.acss{
+    text-decoration: none;
+    
+}
+
+::selection{
+    background-color: #035397;
+    color: white
+}
